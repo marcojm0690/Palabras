@@ -55,9 +55,11 @@ namespace ConsoleApp2
             }
             return result.ToArray();
         }
+        //Given a word show the fist and last letter with the numbers of chars between them
+        //EXAMPLE: C6y is t4g-up. N1w t4s I5n is d3g n1w t4s!
         public static void Main()
         {
-            string output = WordParser("Creativity is #fg thinking-up. New things Innovation is doing new things!");
+            string output = WordParser("Creativity is thinking-up. New things Innovation is doing new things!");
             Console.WriteLine(output);
             Console.ReadKey();
         }
